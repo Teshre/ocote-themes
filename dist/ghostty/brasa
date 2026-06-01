@@ -1,0 +1,25 @@
+# Ocote Themes — Brasa
+# Rescoldos al rojo. Cálido e intenso.
+# https://github.com/Teshre/ocote-themes
+
+background = 1A0F0A
+foreground = F0D8C0
+cursor-color = FF7A4D
+selection-background = 45261A
+
+palette = 0=#36241A
+palette = 1=#F2685A
+palette = 2=#B8C24A
+palette = 3=#F0B23A
+palette = 4=#9AA6E0
+palette = 5=#E68AA2
+palette = 6=#6BC8B8
+palette = 7=#E8D0BC
+palette = 8=#5A3A28
+palette = 9=#FF8A6A
+palette = 10=#CCD66A
+palette = 11=#FFC95E
+palette = 12=#B4BEEC
+palette = 13=#F2A6BA
+palette = 14=#8EE0D2
+palette = 15=#FBEAD8

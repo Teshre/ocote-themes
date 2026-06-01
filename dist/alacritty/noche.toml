@@ -1,0 +1,35 @@
+# Ocote Themes — Noche
+# Azules profundos para la madrugada.
+# https://github.com/Teshre/ocote-themes
+
+[colors.primary]
+background = "#0C0E16"
+foreground = "#CBD4EC"
+
+[colors.cursor]
+text   = "#0C0E16"
+cursor = "#82A6E0"
+
+[colors.selection]
+text       = "CellForeground"
+background = "#232A40"
+
+[colors.normal]
+black   = "#20253A"
+red     = "#E2727E"
+green   = "#7CC596"
+yellow  = "#D8C062"
+blue    = "#7AA0E8"
+magenta = "#B79AE0"
+cyan    = "#6DD8D0"
+white   = "#BAC2DC"
+
+[colors.bright]
+black   = "#3A4260"
+red     = "#F08A96"
+green   = "#98D8AE"
+yellow  = "#E8D484"
+blue    = "#9CBAF0"
+magenta = "#CEB4EC"
+cyan    = "#8EE6DE"
+white   = "#E6ECFA"

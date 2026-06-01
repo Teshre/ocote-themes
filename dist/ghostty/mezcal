@@ -1,0 +1,25 @@
+# Ocote Themes — Mezcal
+# Agave y oro. Terroso y dorado.
+# https://github.com/Teshre/ocote-themes
+
+background = 13110E
+foreground = E0D8C8
+cursor-color = D9A441
+selection-background = 36301E
+
+palette = 0=#2C2818
+palette = 1=#DA6E54
+palette = 2=#A8B84A
+palette = 3=#D9A441
+palette = 4=#8AA6C0
+palette = 5=#C28AA8
+palette = 6=#6FC8AE
+palette = 7=#D2C8B0
+palette = 8=#4E462C
+palette = 9=#EC8A6E
+palette = 10=#C0D066
+palette = 11=#ECC468
+palette = 12=#A6BED4
+palette = 13=#DCA6C2
+palette = 14=#8EE0C8
+palette = 15=#F2EAD6

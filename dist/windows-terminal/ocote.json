@@ -1,0 +1,23 @@
+{
+  "name": "Ocote - Ocote",
+  "background": "#14100C",
+  "foreground": "#E7DCC6",
+  "cursorColor": "#E8843A",
+  "selectionBackground": "#3A2E1C",
+  "black": "#2A2218",
+  "red": "#E8635A",
+  "green": "#7DC97A",
+  "yellow": "#E8B43A",
+  "blue": "#82A6E0",
+  "purple": "#C58AE0",
+  "cyan": "#6DD8C8",
+  "white": "#D8CDB6",
+  "brightBlack": "#4A3E2C",
+  "brightRed": "#F2847B",
+  "brightGreen": "#97D894",
+  "brightYellow": "#F2C863",
+  "brightBlue": "#A0BEE8",
+  "brightPurple": "#D6A6EC",
+  "brightCyan": "#92E6D8",
+  "brightWhite": "#FAF6EC"
+}

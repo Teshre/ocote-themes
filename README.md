@@ -1,3 +1,7 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Teshre/Ocote/main/docs/assets/ocote-icon-200.png" width="80" alt="Ocote">
+
 # Ocote Themes
 
 > Ocho paletas de color diseñadas desde cero — cálidas, con alma de lumbre. Para Ocote y para cualquier terminal.
@@ -5,7 +9,9 @@
 [![base16](https://img.shields.io/badge/base16-compatible-E8843A?style=flat-square)](https://github.com/tinted-theming/home)
 [![license](https://img.shields.io/badge/license-MIT-7DC97A?style=flat-square)](LICENSE)
 
-![preview](https://raw.githubusercontent.com/Teshre/ocote-themes/main/preview/gallery.png)
+![preview](preview/gallery.png)
+
+</div>
 
 ---
 

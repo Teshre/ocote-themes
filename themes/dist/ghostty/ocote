@@ -1,0 +1,25 @@
+# Ocote Themes — Ocote
+# Carbón y lumbre. La firma de la casa.
+# https://github.com/Teshre/ocote-themes
+
+background = 14100C
+foreground = E7DCC6
+cursor-color = E8843A
+selection-background = 3A2E1C
+
+palette = 0=#2A2218
+palette = 1=#E8635A
+palette = 2=#7DC97A
+palette = 3=#E8B43A
+palette = 4=#82A6E0
+palette = 5=#C58AE0
+palette = 6=#6DD8C8
+palette = 7=#D8CDB6
+palette = 8=#4A3E2C
+palette = 9=#F2847B
+palette = 10=#97D894
+palette = 11=#F2C863
+palette = 12=#A0BEE8
+palette = 13=#D6A6EC
+palette = 14=#92E6D8
+palette = 15=#FAF6EC

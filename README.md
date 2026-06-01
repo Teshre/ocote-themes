@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Teshre/Ocote/main/docs/assets/ocote-icon-200.png" width="80" alt="Ocote">
+<img src="https://github.com/user-attachments/assets/9a548070-e0bc-4419-a64d-9446787fb221" width="80" alt="Ocote">
 
 # Ocote Themes
 

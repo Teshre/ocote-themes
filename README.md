@@ -9,7 +9,7 @@
 [![base16](https://img.shields.io/badge/base16-compatible-E8843A?style=flat-square)](https://github.com/tinted-theming/home)
 [![license](https://img.shields.io/badge/license-MIT-7DC97A?style=flat-square)](LICENSE)
 
-![preview](preview/gallery.png)
+![preview](preview/Ocote Gallery.png)
 
 </div>
 

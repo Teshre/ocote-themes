@@ -9,7 +9,7 @@
 [![base16](https://img.shields.io/badge/base16-compatible-E8843A?style=flat-square)](https://github.com/tinted-theming/home)
 [![license](https://img.shields.io/badge/license-MIT-7DC97A?style=flat-square)](LICENSE)
 
-<img src="https://github.com/user-attachments/assets/244bd2ed-85b5-49d6-acdb-dc94780ddfd6" width="800">
+<img src="https://github.com/user-attachments/assets/244bd2ed-85b5-49d6-acdb-dc94780ddfd6" width="80">
 
 </div>
 

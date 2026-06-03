@@ -4,7 +4,9 @@
 
 # Ocote Themes
 
-> Ocho paletas de color diseñadas desde cero — cálidas, con alma de lumbre. Para Ocote y para cualquier terminal.
+> Eight color palettes designed from scratch — warm, with the soul of ember. For Ocote and for any terminal.
+
+[**English**](README.md) · [Español](README.es.md)
 
 [![base16](https://img.shields.io/badge/base16-compatible-E8843A?style=flat-square)](https://github.com/tinted-theming/home)
 [![license](https://img.shields.io/badge/license-MIT-7DC97A?style=flat-square)](LICENSE)
@@ -15,32 +17,32 @@
 
 ---
 
-## Temas
+## Themes
 
-| Tema | Tipo | Descripción |
-|------|------|-------------|
-| **Ocote** | 🌑 Oscuro | Carbón y lumbre. La firma de la casa. |
-| **Brasa** | 🌑 Oscuro | Rescoldos al rojo. Cálido e intenso. |
-| **Bosque** | 🌑 Oscuro | Verde de monte y resina. |
-| **Noche** | 🌑 Oscuro | Azules profundos para la madrugada. |
-| **Papel** | 🌕 Claro | Tinta sobre papel cálido. |
-| **Tinta** | 🌑 Oscuro | Casi monocromo. Negro tinta, acento brasa. |
-| **Mezcal** | 🌑 Oscuro | Agave y oro. Terroso y dorado. |
-| **Cacao** | 🌑 Oscuro | Chocolate amargo y ámbar. |
+| Theme | Type | Description |
+|-------|------|-------------|
+| **Ocote** | 🌑 Dark | Charcoal and ember. The signature of the house. |
+| **Brasa** | 🌑 Dark | Glowing embers. Warm and intense. |
+| **Bosque** | 🌑 Dark | Forest green and resin. |
+| **Noche** | 🌑 Dark | Deep blues for the small hours. |
+| **Papel** | 🌕 Light | Ink on warm paper. |
+| **Tinta** | 🌑 Dark | Near-monochrome. Ink black, ember accent. |
+| **Mezcal** | 🌑 Dark | Agave and gold. Earthy and golden. |
+| **Cacao** | 🌑 Dark | Dark chocolate and amber. |
 
 ---
 
-## Instalación por terminal
+## Installation per terminal
 
 ### Alacritty
 
-Copia el archivo a tu carpeta de temas y referéncialo en `alacritty.toml`:
+Copy the file to your themes folder and reference it in `alacritty.toml`:
 
 ```toml
 import = ["~/.config/alacritty/themes/ocote.toml"]
 ```
 
-Archivos disponibles en `dist/alacritty/`:
+Files available in `dist/alacritty/`:
 ```
 ocote.toml  brasa.toml  bosque.toml  noche.toml
 papel.toml  tinta.toml  mezcal.toml  cacao.toml
@@ -48,71 +50,71 @@ papel.toml  tinta.toml  mezcal.toml  cacao.toml
 
 ### Kitty
 
-Copia el archivo a `~/.config/kitty/` e inclúyelo en `kitty.conf`:
+Copy the file to `~/.config/kitty/` and include it in `kitty.conf`:
 
 ```conf
 include themes/ocote.conf
 ```
 
-Archivos disponibles en `dist/kitty/`.
+Files available in `dist/kitty/`.
 
 ### Ghostty
 
-Copia el archivo a `~/.config/ghostty/themes/` y actívalo:
+Copy the file to `~/.config/ghostty/themes/` and activate it:
 
 ```
 theme = ocote
 ```
 
-Archivos disponibles en `dist/ghostty/` (sin extensión, como requiere Ghostty).
+Files available in `dist/ghostty/` (no extension, as Ghostty requires).
 
 ### WezTerm
 
 ```lua
--- en tu wezterm.lua
+-- in your wezterm.lua
 local colors = require('ocote-themes.wezterm.ocote')
 config.colors = colors
 ```
 
-Archivos disponibles en `dist/wezterm/`.
+Files available in `dist/wezterm/`.
 
 ### Windows Terminal
 
-**Un solo tema:** abre `Configuración → Abrir JSON` y agrega el contenido de `dist/windows-terminal/ocote.json` dentro del array `"schemes"`.
+**A single theme:** open `Settings → Open JSON` and add the contents of `dist/windows-terminal/ocote.json` inside the `"schemes"` array.
 
-**Todos los temas de una vez:** usa `dist/windows-terminal/ocote-all.json` — contiene los 8 esquemas en un solo array listo para copiar.
+**All themes at once:** use `dist/windows-terminal/ocote-all.json` — it contains the 8 schemes in a single array ready to paste.
 
 ### iTerm2
 
-Abre iTerm2 → `Preferences → Profiles → Colors → Color Presets → Import…` y selecciona el archivo `.itermcolors` de `dist/iterm2/`.
+Open iTerm2 → `Preferences → Profiles → Colors → Color Presets → Import…` and select the `.itermcolors` file from `dist/iterm2/`.
 
 ### VS Code / Cursor
 
-> Próximamente — pendiente de publicar en el marketplace. Mientras tanto, usa la [extensión base16 de tinted-theming](https://github.com/tinted-theming/tinted-vscode).
+> Coming soon — pending marketplace publication. In the meantime, use the [base16 extension from tinted-theming](https://github.com/tinted-theming/tinted-vscode).
 
-### Con tinted-theming (cualquier otra app)
+### With tinted-theming (any other app)
 
-Las fuentes base16 viven en `schemes/`. Puedes usarlas con [tinty](https://github.com/tinted-theming/tinty) para generar configuraciones para cualquiera de las [200+ apps compatibles](https://github.com/tinted-theming/home#supported-schemes-and-templates):
+The base16 sources live in `schemes/`. You can use them with [tinty](https://github.com/tinted-theming/tinty) to generate configs for any of the [200+ supported apps](https://github.com/tinted-theming/home#supported-schemes-and-templates):
 
 ```sh
-# instalar tinty
+# install tinty
 cargo install tinty
 
-# apuntar al repo de schemes
+# point it at the schemes repo
 tinty install --schemes-source https://github.com/Teshre/ocote-themes
 
-# aplicar un tema
+# apply a theme
 tinty apply ocote
 tinty apply mezcal
 ```
 
 ---
 
-## Estructura del repo
+## Repo structure
 
 ```
 ocote-themes/
-├── schemes/                  ← fuente de verdad (base16 YAML)
+├── schemes/                  ← source of truth (base16 YAML)
 │   ├── ocote.yaml
 │   ├── brasa.yaml
 │   ├── bosque.yaml
@@ -122,47 +124,47 @@ ocote-themes/
 │   ├── mezcal.yaml
 │   └── cacao.yaml
 │
-├── dist/                     ← generados (no editar a mano)
+├── dist/                     ← generated (do not edit by hand)
 │   ├── alacritty/            .toml
 │   ├── kitty/                .conf
-│   ├── ghostty/              (sin extensión)
+│   ├── ghostty/              (no extension)
 │   ├── wezterm/              .lua
 │   ├── windows-terminal/     .json + ocote-all.json
 │   └── iterm2/               .itermcolors
 │
 ├── preview/
-│   └── gallery.png           ← generada desde Ocote Themes.html
+│   └── gallery.png           ← generated from Ocote Themes.html
 │
 └── README.md
 ```
 
 ---
 
-## Filosofía de color
+## Color philosophy
 
-Estas paletas **no son versiones renombradas de esquemas existentes**. Parten de una dirección propia: calor, contraste contenido y una paleta que no cansa. La idea central:
+These palettes are **not renamed versions of existing schemes**. They start from a direction of their own: warmth, contained contrast, and a palette that doesn't tire. The core idea:
 
-- **Fondos cálidos** — carbón con toque café, no gris frío.
-- **Acento ember** — naranja brasa como color protagonista, en lugar del púrpura o el azul que domina la mayoría de terminales.
-- **Saturación moderada** — colores que se leen bien 8+ horas seguidas.
-- **Cohesión interna** — los 8 temas son familia, no colección aleatoria.
-
----
-
-## Contribuir
-
-¿Quieres añadir soporte para otra terminal o sugerir un ajuste de color?
-
-1. Edita el `.yaml` en `schemes/` (nunca en `dist/` — esos se regeneran).
-2. Abre un PR con los nuevos archivos en `dist/`.
-3. Si añades un formato nuevo, documenta la instalación en el README.
+- **Warm backgrounds** — charcoal with a hint of coffee, not cold gray.
+- **Ember accent** — ember orange as the lead color, instead of the purple or blue that dominates most terminals.
+- **Moderate saturation** — colors that read well for 8+ hours straight.
+- **Internal cohesion** — the 8 themes are a family, not a random collection.
 
 ---
 
-## Licencia
+## Contributing
 
-MIT — úsalos como quieras, en lo que quieras.
+Want to add support for another terminal or suggest a color tweak?
+
+1. Edit the `.yaml` in `schemes/` (never in `dist/` — those are regenerated).
+2. Open a PR with the new files in `dist/`.
+3. If you add a new format, document its installation in the README.
 
 ---
 
-*Hecho con lumbre por [Teshre](https://github.com/Teshre) · parte del proyecto [Ocote](https://github.com/Teshre/Ocote)*
+## License
+
+MIT — use them however you want, in whatever you want.
+
+---
+
+*Made with ember by [Teshre](https://github.com/Teshre) · part of the [Ocote](https://github.com/Teshre/Ocote) project*
